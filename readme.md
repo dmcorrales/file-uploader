@@ -9,5 +9,5 @@ npm install --save express-fileupload
 ## Specifications
 **Save image:** *uploads/**role**/image** 
 ```javascript
-        fileUpload.mv(`./uploads/${new Date().getTime()}.${arrayFile[1]}`, (err) => {
+        fileUpload.mv(`./uploads/${new Date().getTime()}.${arrayFile[1]}`, (err) => { .. })
 ```
